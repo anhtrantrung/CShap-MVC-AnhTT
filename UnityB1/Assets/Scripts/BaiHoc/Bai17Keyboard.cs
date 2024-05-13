@@ -10,6 +10,10 @@ public class Bai17Keyboard : MonoBehaviour
     float verticalInput;
     Rigidbody rb;
 
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     void Update()
     {
         InputFromKeyboard();
@@ -18,7 +22,6 @@ public class Bai17Keyboard : MonoBehaviour
 
     public void InputFromKeyboard()
     {
-        rb = GetComponent<Rigidbody>();
          horizontalInput = Input.GetAxis("Horizontal");
          verticalInput = Input.GetAxis("Vertical");
     }    
@@ -30,7 +33,6 @@ public class Bai17Keyboard : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Áp dụng lực nhảy vào Rigidbody của player
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }  

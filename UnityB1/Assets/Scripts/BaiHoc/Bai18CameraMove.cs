@@ -10,7 +10,7 @@ public class Bai18CameraMove : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        camOffset = new Vector3(0,1,-4);
+        camOffset = new Vector3(0,4,-10);
     }
 
     void Update()
