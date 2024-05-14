@@ -383,10 +383,17 @@
 "Assets/Scripts/BaiHoc/Bai59AudioLength.cs"
 "Assets/Scripts/BaiHoc/Bai68Random.cs"
 "Assets/Scripts/BaiHoc/Bai71SwitchBetweenCamera.cs"
+"Assets/Scripts/BaiHoc/Bai77Character.cs"
+"Assets/Scripts/BaiHoc/Bai78VirtualKeys.cs"
+"Assets/Scripts/BaiHoc/Bai81AniDoor.cs"
+"Assets/Scripts/BaiHoc/Bai86CreateAutomatically.cs"
+"Assets/Scripts/BaiHoc/Bai87Rotating.cs"
 "Assets/Scripts/BaiHoc/Bai8Scale.cs"
 "Assets/Scripts/BaiHoc/Bai9Audio.cs"
 "Assets/Scripts/GameBall/Camera/CameraMove.cs"
+"Assets/Scripts/GameBall/GameCtrl/GameControler.cs"
 "Assets/Scripts/GameBall/Player/PlayerMove.cs"
+"Assets/Scripts/GameBall/UI/PlusPoint.cs"
 "Assets/Scripts/Zombie/ZombieMove.cs"
 -langversion:9.0
 
